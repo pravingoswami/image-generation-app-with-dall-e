@@ -36,7 +36,7 @@ const CreatePost = () => {
         <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
           <div className="flex flex-col gap-5">
             <FormField
-              LabelName="your name"
+              labelName="your name"
               type="text"
               name="name"
               placeholder="john doe"
@@ -44,7 +44,7 @@ const CreatePost = () => {
               handleChange={handleChange}
             />
             <FormField
-              LabelName="prompt"
+              labelName="prompt"
               type="text"
               name="prompt"
               placeholder="3D render of a cute tropical fish in an aquarium on a dark blue background, digital art"
