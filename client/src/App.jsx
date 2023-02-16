@@ -23,6 +23,9 @@ const App = () => {
           <Route path="/create-post" element={<CreatePost />} />
         </Routes>
       </main>
+      <footer  className="mt-2 text-center bg-gray-800 text-white text-[14px] max-w[500px] text-bold py-2" >
+      Developed By - Sphinx Dev
+      </footer>
     </BrowserRouter>
   );
 };
